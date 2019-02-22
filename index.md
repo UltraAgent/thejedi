@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Jedi projects site
 
 You can use the [editor on GitHub](https://github.com/UltraAgent/thejedi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
