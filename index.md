@@ -1,7 +1,10 @@
 ---
+published: true
+---
+---
 ---
 
-## Welcome to Jedi projects site
+## The Jedi
 
 Здесь вы можете проголосовать за уже имеющийся проект или предложить свой
 
