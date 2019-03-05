@@ -6,4 +6,9 @@ Project keeper: ultraagent
 Field name: 
 ---
 
-# Hi lest start testing xone
+| ЧТО?  | У КОГО? | НА СКОЛЬКО?
+| ------------- | ------------- |
+| Raspberry pi 2  | NULL  |NULL|
+| ESP32  |NULL  |NULL|
+| Arduino  | Anon  |12.03.19|
+| LED 8digit  | Anon  |12.03.19|
