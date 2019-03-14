@@ -8,4 +8,4 @@ collections:
   uploads:
     title: Uploads
     output: true
-theme: jekyll-theme-architect
+theme: jekyll-theme-slate
