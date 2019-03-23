@@ -21,12 +21,13 @@ window.onload = function() {
 	g.addEdge("Управление двигателями", "Драйвер двигателя", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Чем?" });
 	g.addEdge("Чтение датчиков", "Датчик по типу значение 0-5в", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Какой?" }); 
 	g.addEdge("Чтение датчиков", "Датчик по типу да\нет", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Какой?" }); 
- g.addEdge("Чтение датчиков", "Порт МК перевести в режим INPUT", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Как?" });   
-   g.addEdge("Arduino", "Чтение датчиков", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Функция" });
-	
+	g.addEdge("Чтение датчиков", "Порт МК перевести в режим INPUT", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Как?" });   
+	g.addEdge("Arduino", "Чтение датчиков", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Функция" });
 	g.addEdge("Arduino", "Управление двигателями", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Функция" });
-	
-
+	g.addEdge("Arduino", "Вывод информации на дисплей", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Функция" });
+g.addEdge("Вывод информации на дисплей", "Сегментный", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Какой дисплей?" });
+g.addEdge("Вывод информации на дисплей", "Пиксельный", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Какой дисплей?" });
+g.addEdge("Вывод информации на дисплей", "I2C", { directed : true, stroke : "#bfa" , fill : "#56f", label : "Какой интерфейс у дисплея?" });
     /* layout the graph using the Spring layout implementation */
     var layouter = new Graph.Layout.Spring(g);
     
