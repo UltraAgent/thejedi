@@ -125,7 +125,7 @@
 	  
 					elements: {
 						nodes: [
-							{ data: { id: 'j', name: 'Вывод информации на дисплей' } },
+							{ data: { id: 'j', name: 'Вывод информации на дисплей' ,label: 'arduino.cc'} },
 							{ data: { id: 'e', name: 'Управление двигателями' } },
 							{ data: { id: 'k', name: 'Чтение датчиков' } },
 							{ data: { id: 'g', name: 'Arduino' } },
@@ -168,7 +168,8 @@
 						{
 							content: 'lol',
 							select: function(ele){
-								console.log( ele.data('name') );
+								window.location.href = ele.data('label');
+								//console.log( ele.data('name') );
 							},
 							//enabled: false
 						},
