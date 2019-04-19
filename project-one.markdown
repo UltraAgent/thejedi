@@ -1,7 +1,6 @@
 # Тема 1
 ## Arduino IDE установка настройка, загрузка скетча. 
   Скачать последнюю версию установщика по ссылке - [Arduino IDE](http://arduino.cc/en/Main/Software). 
-  На некоторых ОС новая версия не загружает скетч на плату, в таком случае качаем версию 1.05 по ссылке [Old version]( https://www.arduino.cc/en/Main/OldSoftwareReleases#previous). 
   Для плат с китайским чипом CH340 (почти каждая плата) необходимо [скачать](https://github.com/UltraAgent/thejedi/blob/master/ch340driver.zip) драйвер.  
   Перед установкой необходимо удалить старый:  
     - Вставляем шнур в ардуину и в ПК.  
